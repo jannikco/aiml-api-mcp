@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "d6257b87130aeb23bfcdaa915904ae69dc76a675658ed01613991294ac0447ca",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.aimlapi.com/docs-json"
+  ],
+  "id": "aiml-api-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AI/ML API MCP setup and connection checker",
+  "description": "Generate AI/ML API MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aiml-api",
+  "appName": "AI/ML API",
+  "providerDocs": "https://api.aimlapi.com/docs-json",
+  "providerWebsite": "https://aimlapi.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.aimlapi.com/quickstart/setting-up",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-aiml-api-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
